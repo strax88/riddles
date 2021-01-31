@@ -1,0 +1,104 @@
+body {
+	position: relative;
+}
+header {
+	position: relative;
+	width: 720px;
+	left: 25%;
+	right: 25%;
+	text-align: center;
+	
+}
+content {
+	position: relative;
+	width: 720px;
+	height: 500px;
+	left: 25%;
+	right: 25%;
+	
+}
+
+#main {
+	position: relative;
+	background-color: #a78;
+	float: left;
+	width: 600px;
+	height: 500px;
+
+}
+
+
+#answer {
+	width: 233px;
+}
+
+#riddle_text {
+	background-color: #b11;
+	width: 200px;
+	text-align: justify;
+}
+
+#text_edit {
+	display: table;
+}
+
+.table-colgroup {
+	display: table-column-group;
+}
+.table-col {
+	display: table-column;
+}
+.table-tbody {
+	display: table-row-group;
+}
+.table-tr {
+	display: table-row;
+}
+.table-td {
+	display: table-cell;
+	padding-left: 10px;
+	padding-bottom: : 10px;
+	margin-bottom: : 10px;
+}
+
+#image_block {
+	background-color: #b78;
+	position: relative;
+	width: 200px;
+	/* float: right; */
+}
+
+
+
+
+
+
+
+#menu {
+	background: rgb(212,75,56); /* фон кнопки */
+	float: left;
+	width: 120px;
+	height: 500px;
+	}
+
+a {
+width: 100px;
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  margin-bottom: 20px;
+  /* text-spacing: 10px; */
+} 
+a:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+a:active { background: rgb(152,15,0); } /* при нажатии */
+footer {
+	position: relative;
+	width: 720px;
+	left: 25%;
+	right: 25%;
+	text-align: center;
+	clear: both;
+}
